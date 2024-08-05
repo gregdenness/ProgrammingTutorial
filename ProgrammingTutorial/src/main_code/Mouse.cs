@@ -2,7 +2,7 @@
 
 class Mouse {
 
-    static public int x;
-    static public int y;
+    static public int x=0;
+    static public int y=0;
 }
 

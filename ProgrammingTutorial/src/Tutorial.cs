@@ -16,7 +16,9 @@ class Tutorial {
         // pixels, the higher the value the bigger they are.
         Graphics.SetRenderScale(4);
 
-        project.Start();
+        // There is an intentional bug here! Lines of code in C# should usually end with a 
+        // semi colon ;
+        project.Start()
     }
 
     // ------------------------------------------------------------------------------------
