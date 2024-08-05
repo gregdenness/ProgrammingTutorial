@@ -5,8 +5,7 @@ using System.Collections.Generic;
 
 class Tutorial {
 
-    double count;
-    BaseProject project;
+    BaseProject project = new FirstProject();
 
     // ------------------------------------------------------------------------------------
     // Name: Start
@@ -17,7 +16,6 @@ class Tutorial {
         // pixels, the higher the value the bigger they are.
         Graphics.SetRenderScale(4);
 
-        project = new FirstProject();
         project.Start();
     }
 
