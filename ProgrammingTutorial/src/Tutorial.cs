@@ -18,7 +18,7 @@ class Tutorial {
 
         // There is an intentional bug here! Lines of code in C# should usually end with a 
         // semi colon ;
-        project.Start()
+        project.Start();
     }
 
     // ------------------------------------------------------------------------------------
